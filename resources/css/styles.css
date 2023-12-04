@@ -1,0 +1,55 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: auto;
+  width: 60%;
+  line-height: 1.6;
+  background-color: #ffffff;
+  background-attachment: fixed;
+  background-size: cover;
+  /* background-image: url('/resources/background.svg'); */
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+h2 {
+  color: #333;
+  background-color: wheat;
+  padding: 10px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+img {
+  height: 50vh;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.title{
+    font-size: 20px;
+    color: darkcyan;
+}
